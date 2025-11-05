@@ -6,6 +6,7 @@ Feature: Tests for Secondary page
     Given Open Reelly main page
     # Replace the email and password with your valid sign in credentials
     Given User is signed into page with email "test@example.com" and password "test123"
+    When Click on Off-plan tab
     When Click on the Secondary tab on side menu
     Then Verify the right page opens
     When Clicks on Filters
